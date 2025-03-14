@@ -1,32 +1,40 @@
 Introduction
+
 Credit cards are a popular financial product, facilitating online purchases and payments. However, they are also susceptible to fraud, where unauthorized users exploit someone else's credit card information. This unauthorized use not only leads to financial losses for consumers but also poses significant challenges for credit card companies in identifying and preventing fraudulent transactions.
 
 The primary goal of this project is to build a classification model that predicts whether a given transaction is fraudulent or legitimate. By analyzing a dataset of credit card transactions, we aim to develop a solution that enhances the ability of credit card companies to detect fraud efficiently.
 
 Dataset Overview
+
 The dataset used in this project comprises credit card transactions recorded in September 2013 by European cardholders. It contains a total of 284,807 transactions, with 492 fraudulent transactions, resulting in a highly imbalanced dataset where fraudulent transactions represent only 0.172% of all transactions. This imbalance poses a significant challenge in model training and evaluation, necessitating the implementation of specific techniques to handle it effectively.
 
 Methodology
+
 3.1 Exploratory Data Analysis (EDA)
 Exploratory Data Analysis (EDA) was performed to understand the dataset better. This involved:
 
 Descriptive Statistics: Analyzing summary statistics to identify basic trends and anomalies in the data.
 Visualizations: Using graphs and charts to visualize the distribution of transaction types, amounts, and other relevant features.
-3.2 Data Cleaning
+3.2 
+Data Cleaning
 Data cleaning involved several steps:
 
 Standardization: Ensured consistent formatting across all data entries.
 Handling Missing Values: Addressed any missing data points through imputation or removal.
-3.3 Dealing with Imbalanced Data
+3.3 
+Dealing with Imbalanced Data
 Given the highly imbalanced nature of the dataset, various techniques were implemented to address this issue, such as:
 
 Undersampling: Reducing the number of instances in the majority class (non-frauds) to balance the classes.
-3.4 Feature Engineering
+3.4 
+Feature Engineering
 Feature engineering was conducted to improve the model's performance:
 
 Creation of New Features: Derived additional features that may provide more insight into transaction behavior.
 Transformation of Existing Features: Modified existing features for better interpretability and modeling.
+
 3.5 Model Selection
+
 Different classification models were considered for this project, including:
 
 Logistic Regression
@@ -35,9 +43,11 @@ Random Forest
 The choice of model was based on their performance on the validation dataset and their ability to handle class imbalance.
 
 3.6 Model Training
+
 The dataset was split into training and testing sets, typically with a ratio of 80/20. The training set was used to fit the model, tuning hyperparameters as necessary to improve performance.
 
 3.7 Model Validation
+
 Model performance was evaluated using various metrics, such as:
 
 Accuracy
