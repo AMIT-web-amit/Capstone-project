@@ -1,18 +1,4 @@
 Introduction
-Dataset Overview
-Methodology
-
-3.1 Exploratory Data Analysis (EDA)
-3.2 Data Cleaning
-3.3 Dealing with Imbalanced Data
-3.4 Feature Engineering
-3.5 Model Selection
-3.6 Model Training
-3.7 Model Validation
-Results and Discussion
-Future Work
-Conclusion
-Introduction
 Credit cards are a popular financial product, facilitating online purchases and payments. However, they are also susceptible to fraud, where unauthorized users exploit someone else's credit card information. This unauthorized use not only leads to financial losses for consumers but also poses significant challenges for credit card companies in identifying and preventing fraudulent transactions.
 
 The primary goal of this project is to build a classification model that predicts whether a given transaction is fraudulent or legitimate. By analyzing a dataset of credit card transactions, we aim to develop a solution that enhances the ability of credit card companies to detect fraud efficiently.
