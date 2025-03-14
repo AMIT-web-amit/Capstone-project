@@ -1,6 +1,7 @@
 Introduction
 Dataset Overview
 Methodology
+
 3.1 Exploratory Data Analysis (EDA)
 3.2 Data Cleaning
 3.3 Dealing with Imbalanced Data
